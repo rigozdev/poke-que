@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom"
 
 
-const fakePromise = () => new Promise((resolve) => setTimeout(resolve, 1500));
+const fakePromise = () => new Promise((resolve) => setTimeout(resolve, 1250));
 
 export default function Pokemon() {
 
